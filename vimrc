@@ -3,6 +3,8 @@ set number noswapfile
 " let g:netrw_preview   = 1
 " let g:netrw_winsize   = 20
 syntax on
+tnoremap <Esc> <C-\><C-N>
+nnoremap - :Rexplore<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""
 "CLANGD INTEGRATION
